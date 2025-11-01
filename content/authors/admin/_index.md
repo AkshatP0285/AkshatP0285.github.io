@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Akshat Pandey  
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Akshat
+last_name: Pandey
 
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,23 +23,20 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Research Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: IIT Jodhpur
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:akshatp21@iiserb.ac.in'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/AkshatP0285
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/alexjohnsonai/
   - icon: academicons/google-scholar
@@ -54,41 +51,21 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: BS Data Science and Engineering
+    institution: Indian Institute of Sceience Education and Research, Bhopal
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2021
+    date_end: 2025
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
 
       Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Research Fellow
+    company_name: IIT Jodhpur
+    company_url: ''
     icon: ''
-    date_start: 2020-01-01
+    date_start: 2025-06-01
     date_end: ''
     summary: |2-
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
@@ -96,10 +73,10 @@ work:
     company_name: OpenAI
     company_url: 'https://openai.com/'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2019-07-25
+    date_end: Present
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+    
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
