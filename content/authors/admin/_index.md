@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Research Fellow
+role: Research Associate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -33,117 +33,121 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:akshatp21@iiserb.ac.in'
+    url: 'mailto:akshat.84p@gmail.com'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/AkshatP0285
+    label: GitHub
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/akshat-pandey-418299184/
+    label: LinkedIn
 
 interests:
   - Large Language Models
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Medical Imaging
+  - Machine Learning
 
 education:
   - area: BS Data Science and Engineering
-    institution: Indian Institute of Sceience Education and Research, Bhopal
+    institution: Indian Institute of Science Education and Research, Bhopal
     icon: ""
     date_start: 2021
     date_end: 2025
     summary: |
-
-      Minored in Mathematics. President of AI Club.
+      Minored in Mathematics.
 
 work:
-  - position: Research Fellow
+  - position: Research Associate
     company_name: IIT Jodhpur
     company_url: ''
     icon: ''
-    date_start: 2025-06-01
+    date_start: 2025-07-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-07-25
-    date_end: Present
     summary: |
-    
+      Working on medical imaging techniques for automated detection, localisation, and characterisation of rib fractures using CT scans. Investigating large language models as reasoning and orchestration modules within multi-agent systems and mistake-guided hierarchy learning frameworks.
+  - position: Data Science Intern
+    company_name: MIQ Digital
+    company_url: ''
+    icon: ''
+    date_start: 2025-01-01
+    date_end: 2025-06-30
+    summary: |
+      Built and deployed GenAI-driven programmatic workflows using FastAPI and distributed LLM orchestration. Re-engineered a high-volume predictive retargeting pipeline in PySpark, reducing runtime by 67%.
+  - position: Research Intern
+    company_name: RBCDSAI, IIT Madras
+    company_url: ''
+    icon: ''
+    date_start: 2024-05-01
+    date_end: 2024-07-31
+    summary: |
+      Developed and standardized FAIR-compliant deep learning models across biomedical domains and integrated reproducible models into the BioModels repository.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Python
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: code-bracket
+      - name: PyTorch & TensorFlow
+        description: ''
+        percent: 85
+        icon: flask
+      - name: SQL & PySpark
+        description: ''
+        percent: 80
+        icon: database
+      - name: AWS & Docker
+        description: ''
+        percent: 75
+        icon: cloud
+  - name: Tools & Libraries
+    items:
+      - name: LangGraph, LangSmith
         description: ''
         percent: 70
-        icon: book-open
+        icon: puzzle-piece
+      - name: OpenCV, NumPy, Pandas
+        description: ''
+        percent: 80
+        icon: gears
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
 
 # Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: RBCDSAI Summer Research Fellowship
+    url: ''
+    date: '2024-06-01'
+    awarder: RBCDSAI, IIT Madras
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      Summer research fellowship to develop FAIR-compliant biomedical ML models.
+  - title: IISER Aptitude Test (IAT), AIR 854
+    url: ''
+    date: '2021-06-01'
+    awarder: IISER
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
+      Ranked among the top 3% of students in the IISER aptitude test.
+  - title: JEE Advanced Qualified
+    url: ''
+    date: '2021-05-01'
+    awarder: JEE
+    icon: hero/trophy
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Qualified JEE Advanced 2021.
+  - title: JEE Main
+    url: ''
+    date: '2021-04-01'
+    awarder: JEE Main
+    icon: hero/trophy
+    summary: |
+      Percentile score of 97.15.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Akshat Pandey is a data scientist and researcher focused on medical imaging and multi-agent LLM orchestration. His work spans deep learning for biomedical imaging, hierarchy-aware learning, and production-ready GenAI pipelines.
